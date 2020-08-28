@@ -1,0 +1,52 @@
+.titleField {
+	color:#999999;
+	font-size:11px;
+	padding:0;
+	margin:0;
+}
+
+
+
+	body {
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+		background-color: #099;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	.perfilCircular {
+		background-repeat: no-repeat;
+		background-position: 50%;
+		border-radius: 50%;
+		width: 32px
+	}
+
+
+	.FW_CSS_GRID, .FW_V2_CSS_GRID, FW_V2_CSS_GRID_RANGE {
+		background-color: #FFF;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.FW_CSS_TITULO  {
+		color: #2F4F4F;
+	}
+	
+	.FW_CSS_DADOS  {
+		color: #000F00;
+	}
+	
+	.gridPerfilCircular {
+		background-repeat: no-repeat;
+		background-position: 50%;
+		border-radius: 50%;
+		width: 16px;
+	}
+
+	
+	//ZEBRADO #6FF
+	tr.par{background-color: #800080}
+	tr.impar{background-color: #DFDFDF;}
+	tr.trSelecionado {
+		background-color: #9CC;
+	}

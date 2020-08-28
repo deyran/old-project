@@ -1,0 +1,86 @@
+h3, div, body, #divHead, #divBody, #divFoot, #divInfoEmpresa {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+}
+
+h3, div {
+	color: #666;
+}
+
+body {
+	overflow:hidden;
+}
+
+#divBody {
+	//background-color: #EEEEEE;
+	border: 2px solid #CCC;
+	
+}
+
+#divHead {
+	border-top: 2px solid #CCC;
+	font-size: 13px;
+	position: relative;
+
+}
+
+#divFoot {
+	border-bottom: 2px solid #CCC;
+}
+
+
+#divHead, #divBody, #divFoot {
+	border-left: 3px solid #CCC;	
+	border-right: 3px solid #CCC;
+}
+
+#divInfoEmpresa a {
+	font-size: 12px;
+	color: #300;
+	font-style:italic;
+}
+
+#divBodyLeft {
+	background-color: #FFF;
+	border-right: 3px solid #CCC;
+
+}
+
+#divBodyRight {
+	background-color: #FFF;
+	overflow: auto;	
+}
+
+.divBodyLeftOpClass {
+	height: 37px; 
+	border: 1px solid #CCC;
+}
+
+a:link {text-decoration: none;}
+a:active {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+//ZEBRADO
+tr.par{background-color:#CCCCCC;}
+tr.impar{background-color: #DFDFDF;}
+tr.trSelecionado {
+	background-color: #9CC;
+}
+
+.listMenu {
+	color: #000;
+	font-size: 16px;
+	font-weight: normal
+	
+}
+
+.autoCompleteClass {
+	background-image: url(../images/wait16.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+
+}
